@@ -73,7 +73,7 @@ io.on("connection", (socket) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("ok");
+  res.send("Connected to the server");
 });
 
 httpServer.listen(8080);
